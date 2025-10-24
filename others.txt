@@ -1,0 +1,19 @@
+# Custom Keybinds
+bind = Super, B, exec, ~/.config/hypr/hyprland/scripts/launch_first_available.sh "google-chrome-stable" "zen-browser" "firefox" "brave" "chromium" "microsoft-edge-stable" "opera" "librewolf" # Browser
+bind = Super, D, killactive, # Close
+bind = Super, Space, togglefloating, # Float/Tile
+bind = Super, F, exec, ~/.config/hypr/hyprland/scripts/launch_first_available.sh "dolphin" "nautilus" "nemo" "thunar" "${TERMINAL}" "kitty -1 fish -c yazi" # File manager
+bind = Super, G, exec, godot # Open Godot Game Engine
+bind = Super, M, exec, motrix # Open Motrix Download Manager
+bind = , Print, exec, grim ~/Pictures/Screenshots/screenshot_$(date +%Y-%m-%d_%H-%M-%S).png
+bind = Super,Print, exec, grim -g "$(slurp)" ~/Pictures/Screenshots/screenshot_$(date +%Y-%m-%d_%H-%M-%S).png
+bind = Super, W, exec, waydroid show-full-ui
+
+# Make Apps Background Transparent
+~/.config/hypr/custom/rules.conf
+decoration {
+    # Set opacity for all windows (value between 0.0 and 1.0, where 0.0 is fully transparent)
+    active_opacity = 0.75
+    inactive_opacity = 0.65
+    fullscreen_opacity=  0.75
+}

@@ -1,0 +1,2 @@
+REQUIREMENTS
+fish, oh-my-posh, nerd fonts
