@@ -11,3 +11,6 @@ magick input.png \
        \( +clone -flip \) -compose Multiply -composite \
        \( +clone -flop \) -compose Multiply -composite \
     \) -alpha off -compose CopyOpacity -composite output.png
+
+# PREVIEW CURRENT SDDM LOGIN THEME WITHOUT REBOOT
+sddm-greeter-qt6 --test-mode --theme /theme_dir/
