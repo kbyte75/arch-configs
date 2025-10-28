@@ -1,4 +1,6 @@
+
 # Custom Keybinds
+~/.config/hypr/custom/keybinds.conf
 bind = Super, B, exec, ~/.config/hypr/hyprland/scripts/launch_first_available.sh "google-chrome-stable" "zen-browser" "firefox" "brave" "chromium" "microsoft-edge-stable" "opera" "librewolf" # Browser
 bind = Super, D, killactive, # Close
 bind = Super, Space, togglefloating, # Float/Tile
@@ -18,3 +20,11 @@ decoration {
     fullscreen_opacity=  0.75
 }
 windowrulev2 = opacity 0.65, class:kitty  # Custom opacity for kitty
+
+
+
+ctrl_interface=DIR=/var/run/ wpa_supplicant
+network={
+    ssid="FREE_PALESTINE"
+    psk="^&*#jdD5r"
+}

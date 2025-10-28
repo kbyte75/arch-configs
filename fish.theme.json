@@ -5,20 +5,20 @@
       "alignment": "left",
       "segments": [
         {
-          "foreground": "#13e1aa",
+          "foreground": "#fff",
           "style": "plain",
-          "template": "\uf313 kbyte",
+          "template": " ",
           "type": "session"
         },
 
         {
-          "foreground": "#1ab2c9",
+          "foreground": "#fb8500",
           "properties": {
             "folder_separator_icon": "/",
             "style": "full"
           },
           "style": "plain",
-          "template": " \udb80\udc65 {{ .Path }} ",
+          "template": "{{ .Path }} ",
           "type": "path"
         }
       ],
@@ -46,13 +46,7 @@
       "newline": true,
       "segments": [
         {
-          "foreground": "#cd5e42",
-          "style": "plain",
-          "template": "\ue3bf ",
-          "type": "root"
-        },
-        {
-          "foreground": "#00d941",
+          "foreground": "#fb8500",
           "style": "plain",
           "template": "\uf178 ",
           "type": "text"

@@ -1,2 +1,0 @@
-REQUIREMENTS
-fastfetch, nerd fonts
